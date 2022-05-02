@@ -11,7 +11,6 @@
             </div>
             <nav class="BurgerMenu-LinksWrap" id="BurgerMenu-LinksWrap">
                 <a href="#Product" class="BurgerMenu-Links">Продукция</a>
-                <a href="#Courses" class="BurgerMenu-Links">Спецпредложения</a>
                 <a href="#HowOrder" class="BurgerMenu-Links">Оплата</a>
                 <a href="#Delivery" class="BurgerMenu-Links">Доставка</a>
             </nav>

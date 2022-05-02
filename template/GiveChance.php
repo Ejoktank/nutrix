@@ -8,69 +8,17 @@
             </div>
             <div class="GiveChance-Content">
                 <h2 class="Heading Heading_lvl2 GiveChance-Heading">
-                    Когда ничего не<br> сработало — дайте шанс нам!
+                    Поверь в свою силу<br> и силу Nutrix!
                 </h2>
                 <p class="GiveChance-Subheading">
-                    За 5 лет мы получили доверие в аптечных сетях и крупнейших интернет-магазинах.
+                    Теперь продукция компании Nutrix стала доступна к покупке через онлайн-магазин
                 </p>
                 <div class="GiveChance-Partners GiveChancePartners">
-                    <div class="GiveChancePartners-Item">
-                        <img src="<?php echo get_template_directory_uri() . '/img/GiveChancePartners-Img1.png' ?>"
-                             alt=""
-                             class="GiveChancePartners-Img">
-                    </div>
-                    <div class="GiveChancePartners-Item">
-                        <img src="<?php echo get_template_directory_uri() . '/img/GiveChancePartners-Img2.png' ?>"
-                             alt=""
-                             class="GiveChancePartners-Img">
-                    </div>
-                    <div class="GiveChancePartners-Item">
-                        <img src="<?php echo get_template_directory_uri() . '/img/GiveChancePartners-Img3.png' ?>"
-                             alt=""
-                             class="GiveChancePartners-Img">
-                    </div>
-                    <div class="GiveChancePartners-Item">
-                        <img src="<?php echo get_template_directory_uri() . '/img/GiveChancePartners-Img4.png' ?>"
-                             alt=""
-                             class="GiveChancePartners-Img">
-                    </div>
-                    <div class="GiveChancePartners-Item">
-                        <img src="<?php echo get_template_directory_uri() . '/img/GiveChancePartners-Img5.png' ?>"
-                             alt=""
-                             class="GiveChancePartners-Img">
-                    </div>
-                    <div class="GiveChancePartners-Item">
-                        <img src="<?php echo get_template_directory_uri() . '/img/GiveChancePartners-Img6.png' ?>"
-                             alt=""
-                             class="GiveChancePartners-Img">
-                    </div>
-                    <div class="GiveChancePartners-Item">
-                        <img src="<?php echo get_template_directory_uri() . '/img/GiveChancePartners-Img7.png' ?>"
-                             alt=""
-                             class="GiveChancePartners-Img">
-                    </div>
-                    <div class="GiveChancePartners-Item">
-                        <img src="<?php echo get_template_directory_uri() . '/img/GiveChancePartners-Img8.png' ?>"
-                             alt=""
-                             class="GiveChancePartners-Img">
-                    </div>
-                    <div class="GiveChancePartners-Item">
-                        <img src="<?php echo get_template_directory_uri() . '/img/GiveChancePartners-Img9.png' ?>"
-                             alt=""
-                             class="GiveChancePartners-Img">
-                    </div>
-                    <div class="GiveChancePartners-Item">
-                        <img src="<?php echo get_template_directory_uri() . '/img/GiveChancePartners-Img10.png' ?>"
-                             alt=""
-                             class="GiveChancePartners-Img">
-                    </div>
-                    <div class="GiveChancePartners-Item">
-                        <img src="<?php echo get_template_directory_uri() . '/img/GiveChancePartners-Img11.png' ?>"
-                             alt=""
-                             class="GiveChancePartners-Img">
-                    </div>
-                    <div class="GiveChancePartners-Item">
-                    </div>
+                    <img src="<?php echo get_template_directory_uri() . '/img/wb-logo.png' ?>"
+                                alt=""
+                                class="GiveChancePartners-Img">
+                    <!-- <div class="GiveChancePartners-Item">
+                        </div> -->
                 </div>
             </div>
         </div>

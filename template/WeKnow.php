@@ -6,8 +6,7 @@
                 <span>постепенного</span> похудения и сохранить здоровье
             </h2>
             <p class="WeKnow-Subheading">
-                В основе бренда <strong class="Color_yellow">GUARCHIBAO</strong>
-                <b>уникальная формула</b>, которую создала сама природа.
+                Продукция Nutrix - это витаминные и минеральные комплексы, созданные на растительной основе.
             </p>
             <div class="WeKnow-Content">
                 <ul class="WeKnow-Products WeKnowProducts">

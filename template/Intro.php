@@ -6,23 +6,26 @@
                      alt=""
                      class="Intro-Leaf_static">
                 <p class="Intro-Heading">
-                    Настало ваше<br class="phone"> время<br class="desktop"> сделать<br class="phone"> фото «До/После»
+                    Твой проводник<br class="phone"> в мир<br class="desktop"> спортивного<br class="phone"> питания! 
                 </p>
                 <h1 class="Intro-Info">
-                    <span>GUARCHIBAO</span> — профессиональная линейка для безопасной коррекции веса, сертифицированная в Европе.
+                    <span>NUTRIX</span> — российский лидер продаж на рынке спортивного питания.
                 </h1>
                 <ul class="Intro-List IntroList">
                     <li class="IntroList-Item">
-                        100% растительный состав
+                        Высокое качество
                     </li>
                     <li class="IntroList-Item">
-                        Прошли клиническую апробацию
+                        Передовые решения
                     </li>
                     <li class="IntroList-Item">
-                        Заметный результат через 7 дней
+                        Удобство приёма
                     </li>
                     <li class="IntroList-Item">
-                        Минус 7-10 кг лишнего веса за месяц
+                        Доступные цены
+                    </li>
+                    <li class="IntroList-Item">
+                        Впечатляющие результаты
                     </li>
                 </ul>
                 <a class="Btn Intro-Btn"

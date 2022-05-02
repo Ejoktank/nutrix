@@ -20,7 +20,7 @@ $phone = "8 (800) 333-59-45";
 
         <meta charset="utf-8">
 
-        <title>Guarchibao</title>
+        <title>Nutrix</title>
         <meta name="description" content="">
 
         <?php include ("template/all/head.php")?>
