@@ -79,12 +79,10 @@
                     Декомпенсированные проблемы с сердцем, выраженная гипертоническая болезнь, аритмии различного генеза, нарушения ночного сна, тревожные расстройства или депрессии, глаукома, аутоиммунные состояния.
                 </p>
             </ul>
-            <img src="<?php echo get_template_directory_uri() . '/img/ProductCard-Leaf_spec.png' ?>" alt=""
-                 class="ProductCard-Leaf ProductCard-Leaf_spec">
         </div>
     </div>
-    <img src="<?php echo get_template_directory_uri() . '/img/Product-Leaf_left.png' ?>" alt=""
+    <img src="<?php echo get_template_directory_uri() . '/img/Intro-Leaf_left.png' ?>" alt=""
          class="Product-Leaf Product-Leaf_left">
-    <img src="<?php echo get_template_directory_uri() . '/img/Product-Leaf_right.png' ?>" alt=""
+    <img src="<?php echo get_template_directory_uri() . '/img/Intro-Leaf_right.png' ?>" alt=""
          class="Product-Leaf Product-Leaf_right">
 </section>

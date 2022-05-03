@@ -2,7 +2,7 @@
     <div class="Container">
         <div class="Intro-Body">
             <div class="Intro-Content">
-                <img src="<?php echo get_template_directory_uri() . '/img/Intro-Leaf_static.jpg' ?>"
+                <img src="<?php echo get_template_directory_uri() . '/img/Intro-Leaf_static.png' ?>"
                      alt=""
                      class="Intro-Leaf_static">
                 <p class="Intro-Heading">
@@ -35,10 +35,10 @@
             </div>
             <img src="<?php echo get_template_directory_uri() . '/img/Intro-Girl.png' ?>" alt="" class="Intro-Girl">
         </div>
-        <img src="<?php echo get_template_directory_uri() . '/img/Intro-Leaf_left.jpg' ?>"
+        <img src="<?php echo get_template_directory_uri() . '/img/Intro-Leaf_left.png' ?>"
              alt=""
              class="Intro-Simg Intro-Simg_left">
-        <img src="<?php echo get_template_directory_uri() . '/img/Intro-Leaf_right.jpg' ?>"
+        <img src="<?php echo get_template_directory_uri() . '/img/Intro-Leaf_right.png' ?>"
              alt=""
              class="Intro-Simg Intro-Simg_right">
     </div>

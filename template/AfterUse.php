@@ -1,4 +1,4 @@
-<section class="AfterUse" id="AfterUse">
+<section class="AfterUse AfterUse-Container" id="AfterUse">
     <div class="Container">
         <div class="AfterUse-Body">
             <div class="AfterUse-Left">
@@ -27,5 +27,6 @@
                 <img src="<?php echo get_template_directory_uri() . '/img/AfterUse-SpecImg.png' ?>" alt="" class="AfterUse-SpecImg">
             </div>
         </div>
+        <img src="<?php echo get_template_directory_uri() . '/img/WeKnow-Leaf_left.png' ?>" alt="" class="AfterUse-Leaf">
     </div>
 </section>

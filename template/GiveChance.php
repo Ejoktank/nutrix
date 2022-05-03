@@ -11,7 +11,7 @@
                     Поверь в свою силу<br> и силу Nutrix!
                 </h2>
                 <p class="GiveChance-Subheading">
-                    Теперь продукция компании Nutrix стала доступна к покупке через онлайн-магазин
+                    Теперь продукция компании Nutrix стала доступна <br>к покупке через онлайн-магазин
                 </p>
                 <div class="GiveChance-Partners GiveChancePartners">
                     <img src="<?php echo get_template_directory_uri() . '/img/wb-logo.png' ?>"

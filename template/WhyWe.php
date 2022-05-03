@@ -35,7 +35,6 @@
                     </p>
                 </li>
             </ul>
-            <img src="<?php echo get_template_directory_uri() . '/img/WhyWe-Leaf_left.png' ?>" alt="" class="WhyWe-Leaf WhyWe-Leaf_left">
         </div>
     </div>
 </section>
