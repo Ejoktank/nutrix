@@ -13,9 +13,6 @@
             <img src="<?php echo get_template_directory_uri() . '/img/CourseTable-Table_desktop.png' ?>"
                  alt=""
                  class="CourseTable-Table CourseTable-Table_desktop">
-            <p class="CourseTable-MinText">
-                *Фитококтейль Guarchibao Sachets или Dianorm на выбор
-            </p>
         </div>
     </div>
 </section>

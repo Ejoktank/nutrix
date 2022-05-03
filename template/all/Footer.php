@@ -20,9 +20,9 @@
                         </a>
                     </li>
                     <li class="FooterSocial-Item">
-                        <a href="https://www.instagram.com/guarchibaoline/"
+                        <a href="https://www.t.me/guarchibaoline/"
                            target="_blank">
-                            <img src="<?php echo get_template_directory_uri() . '/img/instagram.png' ?>" alt="" class="FooterSocial-Icon">
+                            <img src="<?php echo get_template_directory_uri() . '/img/tg.png' ?>" alt="" class="FooterSocial-Icon">
                         </a>
                     </li>
                     <li class="FooterSocial-Item">
@@ -94,7 +94,7 @@
             <div class="Footer-Right">
                 <img src="/img/Footer-Logo.png" alt="" class="Footer-Logo">
                 <p class="Footer-Copyright">
-                    Copyright © 2019 Guarchibao.<br> Все права защищены
+                    Copyright © 2022 Nutrix.<br> Все права защищены
                 </p>
             </div>
             <a href="#Intro" class="Footer-ArrowToTop">

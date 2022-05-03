@@ -54,6 +54,9 @@
                     </div>
                 </form>
             </div>
+            <div class="NeedHelp-Img">
+                <img src="<?php echo get_template_directory_uri() . '/img/NeedHelp.png' ?>" alt="" srcset="">
+            </div>
         </div>
     </div>
 </section>

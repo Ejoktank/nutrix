@@ -59,21 +59,13 @@ $phone = "8 (800) 333-59-45";
 
             <?php include ("template/WhyWe.php")?>
 
-            <?php include ("template/SpecOffer.php")?>
-
             <?php include ("template/CourseTable.php")?>
 
             <?php include ("template/HzDecor.php")?>
 
-            <?php include ("template/Courses.php")?>
-
-            <?php include ("template/SpecGift.php")?>
-
             <?php include ("template/HowOrder.php")?>
 
             <?php include ("template/Delivery.php")?>
-
-            <?php include ("template/HzDecor.php")?>
 
             <?php include ("template/DeliveryMap.php")?>
 
