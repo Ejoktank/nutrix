@@ -12,29 +12,34 @@
                 <ul class="WeKnow-Products WeKnowProducts">
                     <li class="WeKnowProducts-Item">
                         <h3 class="WeKnowProducts-Heading">
-                            <b>GUAR</b>ANA
-                            <img src="<?php echo get_template_directory_uri() . '/img/WeKnowProducts-Icon1.png' ?>" alt="" class="WeKnowProducts-Icon">
+                            ДУШИЦА
                         </h3>
                         <p class="WeKnowProducts-Text">
-                            Гуарана ускоряет метаболизм и процесс сжигания жиров
+                            Экстракт душицы обладает антимикробным действием, повышающим работу иммунной системы.
                         </p>
                     </li>
                     <li class="WeKnowProducts-Item">
                         <h3 class="WeKnowProducts-Heading">
-                            <b>CHI</b>A
-                            <img src="<?php echo get_template_directory_uri() . '/img/WeKnowProducts-Icon2.png' ?>" alt="" class="WeKnowProducts-Icon">
+                            ГАРЦИНИЯ
                         </h3>
                         <p class="WeKnowProducts-Text">
-                            Чиа способствует быстрому насыщению<br> и обеспечивает прилив сил
+                            Гарциния повышает желание дольше и чаще тренироваться.
                         </p>
                     </li>
                     <li class="WeKnowProducts-Item">
                         <h3 class="WeKnowProducts-Heading">
-                            <b>BAO</b>BAB
-                            <img src="<?php echo get_template_directory_uri() . '/img/WeKnowProducts-Icon3.png' ?>" alt="" class="WeKnowProducts-Icon">
+                            ФЕНХЕЛЬ
                         </h3>
                         <p class="WeKnowProducts-Text">
-                            Баобаб поддерживает микрофлору и содержит<br> вещества, подавляющие чувство голода
+                            Экстракт фенхеля влияет на активацию пищеварительных процессов и снижение аппетита.
+                        </p>
+                    </li>
+                    <li class="WeKnowProducts-Item">
+                        <h3 class="WeKnowProducts-Heading">
+                            МАКА
+                        </h3>
+                        <p class="WeKnowProducts-Text">
+                            Экстракт маки перуанской благотворно влияет на работу щитовидной железы.
                         </p>
                     </li>
                 </ul>

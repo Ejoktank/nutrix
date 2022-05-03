@@ -1659,6 +1659,10 @@ body {
     padding-top: 40px; } }
 
 .WeKnow-SimgWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   max-width: 300px;
   margin: 35px auto 0; }
   @media (min-width: 992px) {
@@ -1698,7 +1702,7 @@ body {
       margin-top: 55px; } }
   @media (min-width: 1200px) {
     .WeKnow-AddInfo {
-      padding: 25px 25px 25px 110px;
+      padding: 35px 25px 37px 110px;
       -webkit-box-shadow: 0px 0px 34px rgba(0, 0, 0, 0.07);
               box-shadow: 0px 0px 34px rgba(0, 0, 0, 0.07); } }
   .WeKnow-AddInfo:before {
@@ -1720,20 +1724,20 @@ body {
     width: 45px;
     height: 100%;
     padding-bottom: 3px;
-    font-size: 22px;
-    font-weight: 900;
+    font-size: 40px;
+    font-weight: 400;
     color: #FFFFFF;
-    background-color: #FBBD00;
+    background-color: #008073;
     content: '+'; }
     @media (min-width: 1200px) {
       .WeKnow-AddInfo:before {
-        top: -3px;
-        left: -10px;
-        width: 80px;
-        height: 80px;
-        font-size: 31px;
-        -webkit-border-radius: 50%;
-                border-radius: 50%; } }
+        top: 0;
+        left: 0;
+        width: 90px;
+        height: 90px;
+        font-size: 75px;
+        -webkit-border-radius: 30px;
+                border-radius: 30px; } }
 
 .WeKnow-Stamp {
   margin-top: 35px; }
@@ -1780,7 +1784,8 @@ body {
 
 .WeKnowProducts-Heading {
   font-size: 24px;
-  font-weight: 300; }
+  font-weight: 800; 
+color: #008073;}
   @media (min-width: 768px) {
     .WeKnowProducts-Heading {
       font-size: 40px; } }
