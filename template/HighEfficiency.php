@@ -1,7 +1,7 @@
 <section class="HighEfficiency" id="HighEfficiency">
     <div class="Container">
         <div class="HighEfficiency-Body">
-            <h2 class="HighEfficiency-Heading">Высокая эффективность</h2>
+            <h2 class="Heading Heading_lvl2 HighEfficiency-Heading ">Высокая эффективность</h2>
             <p class="HighEfficiency-Subheading">
                 линейки в 4-х действиях
             </p>

@@ -3,20 +3,23 @@
         <div class="AfterUse-Body">
             <div class="AfterUse-Left">
                 <h2 class="Heading Heading_lvl2 AfterUse-Heading">
-                    После употребления Guarchibao
+                    Результат приема Nutrix не заставит себя ждать
                 </h2>
                 <ul class="AfterUse-List AfterUseList">
                     <li class="AfterUseList-Item">
-                        Запускается процесс похудения
+                        Ускорение обмена веществ
                     </li>
                     <li class="AfterUseList-Item">
-                        Повышается работоспособность и активность
+                        Улучшение состояний кожи, ногтей и волос
                     </li>
                     <li class="AfterUseList-Item">
-                        Повышается уровень минералов, которые теряются в процессе любой диеты
+                        Отсутствие чувтсва голода
                     </li>
                     <li class="AfterUseList-Item">
-                        Уходит чувство голода и запускает процесс расщипление жира, преобразуя его в энергию
+                        Защита от вредного воздействия окружающей среды
+                    </li>
+                    <li class="AfterUseList-Item">
+                        Повышение иммунитета
                     </li>
                 </ul>
             </div>
