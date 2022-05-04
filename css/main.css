@@ -536,7 +536,9 @@ button.Btn {
 }
 .Input-Control {
   padding-left: 20px;
-  background-color: #fff;
+  background-color: #fff !important;
+  border: 1px solid #008073 !important;
+  border-radius: 30px !important;
   font-size: 14px;
   border: none;
   -webkit-border-radius: 5px;
@@ -556,11 +558,10 @@ button.Btn {
   min-height: 100%;
   padding-top: 10px;
   padding-left: 30px;
-  background-color: transparent;
   font-size: 14px;
-  border: 1px solid #acacac;
+  border: 1px solid #008073;
   -webkit-border-radius: 31px;
-  border-radius: 31px;
+  border-radius: 30px;
   display: block;
 }
 .Textarea::-webkit-scrollbar {
@@ -1004,7 +1005,7 @@ body {
   height: 525px;
   margin: 0 auto;
   padding: 67px 62px 76px 70px;
-  background-image: url(/img/SliderBg_iphone.png);
+  background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/SliderBg_iphone.png);
   background-repeat: no-repeat;
   -webkit-background-size: 100% 100%;
   background-size: 100% 100%;
@@ -1788,7 +1789,7 @@ body {
   content: "";
   width: 13px;
   height: 11px;
-  background-image: url(/img/check.png);
+  background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/check.png);
   background-position: center center;
   -webkit-background-size: cover;
   background-size: cover;
@@ -1988,7 +1989,7 @@ body {
 .HzDecor-Line {
   width: calc(50% - 60px);
   height: 5px;
-  background-image: url(/img/HzDecor-Line.png);
+  /* background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/HzDecor-Line.png); */
   background-repeat: repeat-x;
 }
 @media (min-width: 992px) {
@@ -2119,7 +2120,7 @@ body {
   content: "";
   width: 13px;
   height: 11px;
-  background-image: url(/img/check.png);
+  background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/check.png);
   background-position: center center;
   -webkit-background-size: cover;
   background-size: cover;
@@ -2431,7 +2432,7 @@ body {
 }
 @media (min-width: 1200px) {
   .HighEfficiency {
-    background-image: url(/img/HighEfficiency-Bg.jpg);
+    background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/HighEfficiency-Bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -2516,7 +2517,7 @@ body {
   height: 62px;
   max-width: 327px;
   margin: 0 auto 15px;
-  background-image: url(/img/HighEfficiencyList-Item-Bg.png);
+  background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/HighEfficiencyList-Item-Bg.png);
   background-repeat: no-repeat;
   -webkit-background-size: 100% 100%;
   background-size: 100% 100%;
@@ -2525,7 +2526,7 @@ body {
   .HighEfficiencyList-Item {
     width: 275px;
     height: 90px;
-    background-image: url(/img/HighEfficiencyList-Item-Bg_desktop.png);
+    background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/HighEfficiencyList-Item-Bg_desktop.png);
   }
 }
 .HighEfficiencyList-Item:before {
@@ -2865,7 +2866,7 @@ body {
 }
 @media (min-width: 1200px) {
   .WhyWeSert {
-    background-image: url(/img/WhyWeSert-Bg.jpg);
+    background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/WhyWeSert-Bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -3080,7 +3081,7 @@ body {
   content: "";
   width: 13px;
   height: 11px;
-  background-image: url(/img/check.png);
+  background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/check.png);
   background-position: center center;
   -webkit-background-size: cover;
   background-size: cover;
@@ -3107,7 +3108,7 @@ body {
 }
 @media (min-width: 1200px) {
   .WhyWe {
-    background-image: url(/img/WhyWe-Bg.jpg);
+    background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/WhyWe-Bg.png);
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -3353,7 +3354,7 @@ body {
     content: "";
     width: 25px;
     height: 23px;
-    background-image: url(/img/check_white.png);
+    background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/check_white.png);
     background-position: center center;
     -webkit-background-size: cover;
     background-size: cover;
@@ -3561,7 +3562,7 @@ body {
   left: 50%;
   width: 24px;
   height: 26px;
-  background-image: url(/img/CoursesCard-Hz.png);
+  background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/CoursesCard-Hz.png);
   background-repeat: no-repeat;
   -webkit-background-size: 100% 100%;
   background-size: 100% 100%;
@@ -3677,7 +3678,7 @@ body {
   left: 0;
   width: 13px;
   height: 11px;
-  background-image: url(/img/check.png);
+  background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/check.png);
   background-position: center center;
   -webkit-background-size: cover;
   background-size: cover;
@@ -3889,7 +3890,7 @@ body {
   .SpecGiftCard {
     position: relative;
     padding: 30px 0 35px 60px;
-    background-image: url(/img/SpecGiftCard-Circle.png);
+    background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/SpecGiftCard-Circle.png);
     background-repeat: no-repeat;
     background-position: center right;
     text-align: left;
@@ -3973,7 +3974,7 @@ body {
 }
 @media (min-width: 992px) {
   .HowOrder {
-    background-image: url(/img/HowOrder-Bg.jpg);
+    background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/HowOrder-Bg.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     -webkit-background-size: cover;
@@ -4228,7 +4229,7 @@ body {
   content: "";
   width: 13px;
   height: 11px;
-  background-image: url(/img/check.png);
+  background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/check.png);
   background-position: center center;
   -webkit-background-size: cover;
   background-size: cover;
@@ -4380,7 +4381,7 @@ body {
 
 @media (min-width: 992px) {
   .NeedHelp {
-    background-image: url(/img/NeedHelp-Bg.png);
+    /* background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/NeedHelp-Bg.png); */
     background-position: center right;
     background-repeat: no-repeat;
     -webkit-background-size: 50% 50%;
@@ -4439,7 +4440,8 @@ body {
 }
 @media (min-width: 992px) {
   .NeedHelp-Subheading {
-    font-size: 18px;
+    font-size: 24px;
+    font-weight: 500;
     text-align: left;
   }
 }
@@ -4514,7 +4516,7 @@ body {
   height: 525px;
   margin: 0 auto;
   padding: 67px 62px 76px 70px;
-  background-image: url(/img/SliderBg_iphone.png);
+  /* background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/SliderBg_iphone.png); */
   background-repeat: no-repeat;
   -webkit-background-size: 100% 100%;
   background-size: 100% 100%;
@@ -4841,7 +4843,10 @@ body {
 }
 
 .Footer {
-  background-image: url(/img/Footer-Bg.jpg);
+  background-image: url(http://localhost/wp-content/themes/nutrix/img/Footer-Bg.png);
+  background-color: #008073;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center center;
 }
 .Footer-Body {
@@ -4860,7 +4865,8 @@ body {
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding-top: 40px;
+    align-items: center;
+    padding-top: 70px;
     padding-bottom: 70px;
   }
 }
@@ -4922,13 +4928,13 @@ body {
 }
 .Footer-WorkText {
   margin-bottom: 30px;
-  font-size: 13px;
-  font-weight: 300;
+  font-size: 14px;
+  font-weight: 500;
 }
 @media (min-width: 992px) {
   .Footer-WorkText {
-    margin-bottom: 20px;
-    font-size: 18px;
+    margin-bottom: 10px;
+    font-size: 20px;
   }
 }
 .Footer-Social {
@@ -4942,19 +4948,16 @@ body {
   }
 }
 .Footer-Logo {
-  width: 173px;
-  margin-bottom: 15px;
+  margin-left: -10px;
 }
 .Footer-Copyright {
-  font-size: 10px;
+  font-size: 14px;
   font-weight: 300;
 }
 @media (min-width: 992px) {
   .Footer-Copyright {
-    padding-top: 17px;
-    font-size: 13px;
-    color: #b3b3b3;
-    border-top: 1px solid #fff;
+    font-size: 18px;
+    color: #fff;
   }
 }
 .Footer-Copyright br {
@@ -5023,7 +5026,6 @@ body {
 .FooterSocial-Item {
   width: 40px;
   height: 40px;
-  background-color: #fff;
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }

@@ -69,8 +69,6 @@ $phone = "8 (800) 333-59-45";
 
             <?php include ("template/DeliveryMap.php")?>
 
-            <!-- <?php include ("template/StarRecommend.php")?> -->
-
             <?php include ("template/NeedHelp.php")?>
 
             <?php include ("template/all/Footer.php")?>

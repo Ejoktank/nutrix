@@ -2,103 +2,44 @@
     <div class="Container">
         <div class="Footer-Body">
             <div class="Footer-Left">
-                <p class="Footer-Phone">
-                    Горячая линия
-                    <a href="tel:<?=preg_replace("/[^0-9]/", '', $phone);?>"
-                       class="Footer-PhoneLink">
-                        <?=$phone?>
-                    </a>
-                </p>
                 <p class="Footer-WorkText">
                     Работаем по всему миру
                 </p>
                 <ul class="Footer-Social FooterSocial">
                     <li class="FooterSocial-Item">
-                        <a href="https://vk.com/guarchibaoline"
+                        <a href="https://vk.com/nutrix"
                            target="_blank">
-                            <img src="<?php echo get_template_directory_uri() . '/img/vk.png' ?>" alt="" class="FooterSocial-Icon">
+                            <img src="<?php echo get_template_directory_uri() . '/img/vk-footer.png' ?>" alt="" class="FooterSocial-Icon">
                         </a>
                     </li>
                     <li class="FooterSocial-Item">
-                        <a href="https://www.t.me/guarchibaoline/"
+                        <a href="https://www.t.me/nutrix/"
                            target="_blank">
-                            <img src="<?php echo get_template_directory_uri() . '/img/tg.png' ?>" alt="" class="FooterSocial-Icon">
+                            <img src="<?php echo get_template_directory_uri() . '/img/tg-footer.png' ?>" alt="" class="FooterSocial-Icon">
                         </a>
                     </li>
                     <li class="FooterSocial-Item">
-                        <a href="https://www.facebook.com/guarchibaoline"
+                        <a href="https://www.facebook.com/nutrix"
                            target="_blank">
-                            <img src="<?php echo get_template_directory_uri() . '/img/fb.png' ?>" alt="" class="FooterSocial-Icon">
+                            <img src="<?php echo get_template_directory_uri() . '/img/fb-footer.png' ?>" alt="" class="FooterSocial-Icon">
                         </a>
                     </li>
                     <li class="FooterSocial-Item">
-                        <a href="https://ok.ru/guarchibaoline"
+                        <a href="https://ok.ru/nutrix"
                            target="_blank">
                             <img src="<?php echo get_template_directory_uri() . '/img/ok.png' ?>" alt="" class="FooterSocial-Icon">
                         </a>
                     </li>
                 </ul>
             </div>
-            <div class="Footer-Center">
-                <ul class="Footer-LinkList FooterLinkList">
-                    <!--<li class="FooterLinkList-Item">
-                        <a class="FancyBtn FooterLinkList-Link"
-                           data-fancybox
-                           data-type="ajax"
-                           data-src="/im-blocks/politic.php"
-                           href="javascript:;">
-                            Политика конфиденциальности
-                        </a>
-                    </li>
-                    <li class="FooterLinkList-Item">
-                        <a class="FancyBtn FooterLinkList-Link"
-                           data-fancybox
-                           data-type="ajax"
-                           data-src="/im-blocks/politic.php"
-                           href="javascript:;">
-                            Согласие на обработку персональных данных
-                        </a>
-                    </li>
-                    <li class="FooterLinkList-Item">
-                        <a class="FancyBtn FooterLinkList-Link"
-                           data-fancybox
-                           data-type="ajax"
-                           data-src="/im-blocks/politic.php"
-                           href="javascript:;">
-                            Договор оферта
-                        </a>
-                    </li>-->
-                    <li class="FooterLinkList-Item">
-                        <a class="FooterLinkList-Link"
-                           href="/files/politika.pdf"
-                           target="_blank">
-                            Политика конфиденциальности
-                        </a>
-                    </li>
-                    <li class="FooterLinkList-Item">
-                        <a class="FooterLinkList-Link"
-                           href="/files/soglasie.pdf"
-                           target="_blank">
-                            Согласие на обработку персональных данных
-                        </a>
-                    </li>
-                    <li class="FooterLinkList-Item">
-                        <a class="FooterLinkList-Link"
-                           href="/files/publichnay_oferta.pdf"
-                           target="_blank">
-                            Договор оферта
-                        </a>
-                    </li>
-                </ul>
-            </div>
             <div class="Footer-Right">
-                <img src="/img/Footer-Logo.png" alt="" class="Footer-Logo">
+                <img src="<?php echo get_template_directory_uri() . '/img/Footer-Logo.png' ?>" alt="" class="Footer-Logo">
                 <p class="Footer-Copyright">
-                    Copyright © 2022 Nutrix.<br> Все права защищены
+                    Все права защищены
                 </p>
             </div>
             <a href="#Intro" class="Footer-ArrowToTop">
-                <img src="/img/Footer-ArrowToTop-Icon.png" alt="" class="Footer-ArrowToTop-Icon">
+                <img src="<?php echo get_template_directory_uri() . '/img/Footer-ArrowToTop-Icon.png' ?>" alt="" class="Footer-ArrowToTop-Icon">
             </a>
         </div>
     </div>
