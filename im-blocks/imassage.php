@@ -1,5 +1,5 @@
 <div>
-    <script type="text/javascript" src="../js/im-js.js"></script>
+    <script type="text/javascript" src="/wp-content/themes/nutrix/js/im-js.js"></script>
     <div class="ImCallback">
         <div class="ImCallback-Body">
             <p class="ImCallback-Title">Оставьте заявку</p>
@@ -33,10 +33,10 @@
                                 </div>
                             </div>
                         </div>
-                        <img src="/img/ImCallbackForm-Leaf_left.png"
+                        <img src="/wp-content/themes/nutrix/img/ImCallbackForm-Leaf_left.png"
                              alt=""
                              class="ImCallbackForm-Leaf ImCallbackForm-Leaf_left">
-                        <img src="/img/ImCallbackForm-Leaf_right.png"
+                        <img src="/wp-content/themes/nutrix/img/ImCallbackForm-Leaf_right.png"
                              alt=""
                              class="ImCallbackForm-Leaf ImCallbackForm-Leaf_right ">
                     </div>

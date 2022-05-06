@@ -37,6 +37,7 @@ function clearForms() {
         } // end for y
     } // end for x
 }
+
 function sendForm(form) {
     var reachgoal = form.dataset.reachgoal;
 
@@ -49,7 +50,7 @@ function sendForm(form) {
     var xhr = new XMLHttpRequest();
     xhr.open("POST", "/ok.php");
     xhr.send(formData);
-    xhr.onreadystatechange = function() { // (3)
+    xhr.onreadystatechange = function () { // (3)
         if (xhr.readyState != 4) return;
 
         if (xhr.status != 200) {
@@ -57,7 +58,7 @@ function sendForm(form) {
         } else {
             //yaCounter33093903.reachGoal(reachgoal);
             parent.$.fancybox.close();
-            jQuery.fancybox.open( jQuery('.ImThanks').html(xhr.responseText), {
+            jQuery.fancybox.open(jQuery('.ImThanks').html(xhr.responseText), {
                 padding: 0,
             });
             //jQuery.fancybox( jQuery('.ImThanks').html(xhr.responseText) );
@@ -83,8 +84,8 @@ function sendForm(form) {
 function validateForm(options) {
     var form = document.getElementById(options.formId);
 
-    if(!form) {
-        console.log("Cannot find form with id: "+ options.formId);
+    if (!form) {
+        console.log("Cannot find form with id: " + options.formId);
         return;
     }
 
@@ -138,8 +139,8 @@ function validateForm(options) {
 
                 break;
             case 'file':
-                if(elem.value === '') {
-                    if(!elem.parentNode.querySelector('.FileErrorText')) {
+                if (elem.value === '') {
+                    if (!elem.parentNode.querySelector('.FileErrorText')) {
                         var para = document.createElement('p');
                         para.classList.add('FileErrorText');
                         para.textContent = 'Нет прикрепленного файла';
@@ -269,8 +270,8 @@ $(document).ready(function () {
         infinite: true,
         arrows: true,
         dots: false,
-        prevArrow: '<div class="Slider-Arrow Slider-Arrow_prev">\n' + '                        <img src="/img/Slider-Arrow-Icon.png"\n' + '                             alt=""\n' + '                             class="Slider-SlideImg Slider-Arrow-Icon">\n' + '                    </div>',
-        nextArrow: '<div class="Slider-Arrow Slider-Arrow_next">\n' + '                        <img src="/img/Slider-Arrow-Icon.png"\n' + '                             alt=""\n' + '                             class="Slider-SlideImg Slider-Arrow-Icon">\n' + '                    </div>'
+        prevArrow: '<div class="Slider-Arrow Slider-Arrow_prev">\n' + '                        <img src="/wp-content/themes/nutrix/img/Slider-Arrow-Icon.png"\n' + '                             alt=""\n' + '                             class="Slider-SlideImg Slider-Arrow-Icon">\n' + '                    </div>',
+        nextArrow: '<div class="Slider-Arrow Slider-Arrow_next">\n' + '                        <img src="/wp-content/themes/nutrix/img/Slider-Arrow-Icon.png"\n' + '                             alt=""\n' + '                             class="Slider-SlideImg Slider-Arrow-Icon">\n' + '                    </div>'
     });
 
     $('.StarRecommendSlider').slick({
@@ -280,8 +281,8 @@ $(document).ready(function () {
         arrows: true,
         dots: false,
         mobileFirst: true,
-        prevArrow: '<div class="StarRecommendSlider-Arrow StarRecommendSlider-Arrow_prev">\n' + '                        <img src="/img/Slider-Arrow-Icon.png"\n' + '                             alt=""\n' + '                             class="StarRecommendSlider-SlideImg StarRecommendSlider-Arrow-Icon">\n' + '                    </div>',
-        nextArrow: '<div class="StarRecommendSlider-Arrow StarRecommendSlider-Arrow_next">\n' + '                        <img src="/img/Slider-Arrow-Icon.png"\n' + '                             alt=""\n' + '                             class="StarRecommendSlider-SlideImg StarRecommendSlider-Arrow-Icon">\n' + '                    </div>',
+        prevArrow: '<div class="StarRecommendSlider-Arrow StarRecommendSlider-Arrow_prev">\n' + '                        <img src="/wp-content/themes/nutrix/img/Slider-Arrow-Icon.png"\n' + '                             alt=""\n' + '                             class="StarRecommendSlider-SlideImg StarRecommendSlider-Arrow-Icon">\n' + '                    </div>',
+        nextArrow: '<div class="StarRecommendSlider-Arrow StarRecommendSlider-Arrow_next">\n' + '                        <img src="/wp-content/themes/nutrix/img/Slider-Arrow-Icon.png"\n' + '                             alt=""\n' + '                             class="StarRecommendSlider-SlideImg StarRecommendSlider-Arrow-Icon">\n' + '                    </div>',
         responsive: [{
             breakpoint: 1200,
             settings: {
@@ -304,7 +305,7 @@ $(document).ready(function () {
         arrows: true,
         dots: false,
         prevArrow: '',
-        nextArrow: '<button type="button" class="FormSlider-Arrow FormSlider-Next Btn">' + 'Продолжить <img src="/img/SliderArrow.png" alt="">' + '</button>'
+        nextArrow: '<button type="button" class="FormSlider-Arrow FormSlider-Next Btn">' + 'Продолжить <img src="/wp-content/themes/nutrix/img/SliderArrow.png" alt="">' + '</button>'
     });
 
     /*var myDefMenu = new DefMenu({
@@ -331,7 +332,9 @@ $(document).ready(function () {
 
     function animatedAnchorScroll(self) {
         var target = $(self).attr('href');
-        $('html, body').animate({ scrollTop: $(target).offset().top - 80 }, 500);
+        $('html, body').animate({
+            scrollTop: $(target).offset().top - 80
+        }, 500);
     }
     $('a[href^="#"]').click(function () {
         animatedAnchorScroll(this);

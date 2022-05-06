@@ -19,7 +19,7 @@
                             <a class="Btn FancyBtn ProductCard-Btn"
                                data-fancybox
                                data-type="ajax"
-                               data-src="/im-blocks/iproduct.php?headmess=<?=urlencode("Продукт: Капсулы Guarchibao Fat Burner");?>&zag1=<?=urlencode("Заявка на консультацию менеджера");?>&zag2=<?=urlencode("Перезвоним в течение 5 минут");?>&reachgoal=main_form&type=1"
+                               data-src="<?php echo get_template_directory_uri() . '/im-blocks/iproduct.php?headmess' ?>=<?=urlencode("Продукт: Капсулы Guarchibao Fat Burner");?>&zag1=<?=urlencode("Заявка на консультацию менеджера");?>&zag2=<?=urlencode("Перезвоним в течение 5 минут");?>&reachgoal=main_form&type=1"
                                href="javascript:;">
                                 Подробнее
                             </a>
@@ -43,7 +43,7 @@
                             <a class="Btn FancyBtn ProductCard-Btn"
                                data-fancybox
                                data-type="ajax"
-                               data-src="/im-blocks/iproduct.php?headmess=<?=urlencode("Продукт: Чай детокс Guarchibao Detox Herbal Tea");?>&zag1=<?=urlencode("Заявка на консультацию менеджера");?>&zag2=<?=urlencode("Перезвоним в течение 5 минут");?>&reachgoal=main_form&type=2"
+                               data-src="<?php echo get_template_directory_uri() . '/im-blocks/iproduct.php?headmess' ?>=<?=urlencode("Продукт: Чай детокс Guarchibao Detox Herbal Tea");?>&zag1=<?=urlencode("Заявка на консультацию менеджера");?>&zag2=<?=urlencode("Перезвоним в течение 5 минут");?>&reachgoal=main_form&type=2"
                                href="javascript:;">
                                 Подробнее
                             </a>
@@ -67,7 +67,7 @@
                             <a class="Btn FancyBtn ProductCard-Btn"
                                data-fancybox
                                data-type="ajax"
-                               data-src="/im-blocks/iproduct.php?headmess=<?=urlencode("Продукт: Дренажный напиток Guarchibao Drainage Liquor");?>&zag1=<?=urlencode("Заявка на консультацию менеджера");?>&zag2=<?=urlencode("Перезвоним в течение 5 минут");?>&reachgoal=main_form&type=3"
+                               data-src="<?php echo get_template_directory_uri() . '/im-blocks/iproduct.php?headmess' ?>=<?=urlencode("Продукт: Дренажный напиток Guarchibao Drainage Liquor");?>&zag1=<?=urlencode("Заявка на консультацию менеджера");?>&zag2=<?=urlencode("Перезвоним в течение 5 минут");?>&reachgoal=main_form&type=3"
                                href="javascript:;">
                                 Подробнее
                             </a>
