@@ -29,7 +29,7 @@
                     </li>
                 </ul>
                 <a class="Btn Intro-Btn"
-                   href="#GiveChance">
+                   href="#Product">
                     Подробнее
                 </a>
             </div>

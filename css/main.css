@@ -456,15 +456,20 @@ body {
   height: 38px;
   margin-top: 15px;
   margin-right: 15px;
-  background-color: #fbbd00;
+  background-color: #008073;
   -webkit-border-radius: 50%;
   border-radius: 50%;
+  color: #fff;
 }
 @media (min-width: 768px) {
   .fancybox-close-small {
     margin-top: 34px;
     margin-right: 32px;
   }
+}
+
+.fancybox-button svg path {
+  fill: #ffffff;
 }
 
 .fancybox-slide--html {
@@ -1153,7 +1158,7 @@ body {
 
 .IProduct {
   width: 90%;
-  /* height: 90%; */
+  height: 90%;
   max-width: 1200px;
   padding: 50px 20px;
   background-color: #fff;
@@ -1164,6 +1169,13 @@ body {
   .IProduct {
     -webkit-border-radius: 40px;
     border-radius: 40px;
+  }
+}
+@media (min-width: 992px) {
+  .IProduct {
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    height: auto;
   }
 }
 .IProduct-Body {
@@ -1261,8 +1273,6 @@ body {
   height: 49px;
   margin: 30px auto 40px;
   font-weight: 400;
-  color: #000;
-  background: #e7e7e7;
 }
 @media (min-width: 768px) {
   .IProduct-Btn {
@@ -1293,6 +1303,8 @@ body {
   object-fit: contain;
   -o-object-position: center center;
   object-position: center center;
+  background-color: #dcf2f0;
+  border-radius: 30px;
 }
 
 .IProductSlider-SlideWrap {
@@ -1321,8 +1333,9 @@ body {
   justify-content: center;
   width: 100%;
   height: 90px;
-  border: 1px solid #b8b8b8;
+  border-radius: 15px;
   cursor: pointer;
+  background-color: #dcf2f0;
 }
 .IProductSlider-Slide-Img {
   display: block;

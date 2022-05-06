@@ -35,7 +35,7 @@
 
             <div class="Header-Info HeaderInfo">
                 <a class="Btn Intro-Btn Header-Btn"
-                    href="#GiveChance">
+                    href="#HowOrder">
                         Заказать
                     </a>
             </div>
