@@ -1005,7 +1005,7 @@ body {
   height: 525px;
   margin: 0 auto;
   padding: 67px 62px 76px 70px;
-  background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/SliderBg_iphone.png);
+  background-image: url(/wp-content/themes/nutrix/img/SliderBg_iphone.png);
   background-repeat: no-repeat;
   -webkit-background-size: 100% 100%;
   background-size: 100% 100%;
@@ -1765,6 +1765,7 @@ body {
 .IntroList-Item {
   margin-bottom: 5px;
   padding-left: 20px;
+  padding-top: 5px;
   font-size: 11px;
   position: relative;
 }
@@ -1788,8 +1789,8 @@ body {
 .IntroList-Item:before {
   content: "";
   width: 13px;
-  height: 11px;
-  background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/check.png);
+  height: 13px;
+  background-image: url(/wp-content/themes/nutrix/img/check.png);
   background-position: center center;
   -webkit-background-size: cover;
   background-size: cover;
@@ -1801,13 +1802,13 @@ body {
 @media (min-width: 480px) {
   .IntroList-Item:before {
     width: 18px;
-    height: 15px;
+    height: 18px;
   }
 }
 @media (min-width: 768px) {
   .IntroList-Item:before {
-    width: 25px;
-    height: 22px;
+    width: 27px;
+    height: 27px;
   }
 }
 .GiveChance-Body {
@@ -1989,7 +1990,7 @@ body {
 .HzDecor-Line {
   width: calc(50% - 60px);
   height: 5px;
-  /* background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/HzDecor-Line.png); */
+  /* background-image: url(/wp-content/themes/nutrix/img/HzDecor-Line.png); */
   background-repeat: repeat-x;
 }
 @media (min-width: 992px) {
@@ -2061,7 +2062,7 @@ body {
 
 .ForThose-List {
   width: calc(100% - 87px);
-  padding-left: 20px;
+  padding-left: 40px;
 }
 @media (min-width: 992px) {
   .ForThose-List {
@@ -2070,7 +2071,7 @@ body {
 }
 @media (min-width: 1200px) {
   .ForThose-List {
-    padding-left: 55px;
+    padding-left: 150px;
   }
 }
 
@@ -2096,31 +2097,32 @@ body {
 
 .ForThoseList-Item {
   margin-bottom: 13px;
-  padding-left: 25px;
+  padding-left: 20px;
   position: relative;
 }
 @media (min-width: 575px) {
   .ForThoseList-Item {
     margin-bottom: 30px;
+    padding-left: 40px;
   }
 }
 @media (min-width: 992px) {
   .ForThoseList-Item {
     padding-left: 35px;
-    font-size: 22px;
+    font-size: 24px;
   }
 }
 @media (min-width: 1200px) {
   .ForThoseList-Item {
     margin-bottom: 35px;
-    padding-left: 45px;
+    padding-left: 35px;
   }
 }
 .ForThoseList-Item:before {
   content: "";
-  width: 13px;
-  height: 11px;
-  background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/check.png);
+  width: 14px;
+  height: 14px;
+  background-image: url(/wp-content/themes/nutrix/img/check.png);
   background-position: center center;
   -webkit-background-size: cover;
   background-size: cover;
@@ -2129,15 +2131,10 @@ body {
   top: 3px;
   left: 0;
 }
-@media (min-width: 480px) {
+@media (min-width: 575px) {
   .ForThoseList-Item:before {
-    width: 18px;
-    height: 15px;
-  }
-}
-@media (min-width: 992px) {
-  .ForThoseList-Item:before {
-    top: 9px;
+    width: 27px;
+    height: 27px;
   }
 }
 
@@ -2338,7 +2335,7 @@ body {
 .WeKnowProducts-Item {
   position: relative;
   margin-bottom: 30px;
-  padding-left: 87px;
+  padding-left: 30px;
 }
 @media (min-width: 768px) {
   .WeKnowProducts-Item {
@@ -2432,7 +2429,7 @@ body {
 }
 @media (min-width: 1200px) {
   .HighEfficiency {
-    background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/HighEfficiency-Bg.jpg);
+    background-image: url(/wp-content/themes/nutrix/img/HighEfficiency-Bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -2517,7 +2514,7 @@ body {
   height: 62px;
   max-width: 327px;
   margin: 0 auto 15px;
-  background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/HighEfficiencyList-Item-Bg.png);
+  background-image: url(/wp-content/themes/nutrix/img/HighEfficiencyList-Item-Bg.png);
   background-repeat: no-repeat;
   -webkit-background-size: 100% 100%;
   background-size: 100% 100%;
@@ -2526,7 +2523,7 @@ body {
   .HighEfficiencyList-Item {
     width: 275px;
     height: 90px;
-    background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/HighEfficiencyList-Item-Bg_desktop.png);
+    background-image: url(/wp-content/themes/nutrix/img/HighEfficiencyList-Item-Bg_desktop.png);
   }
 }
 .HighEfficiencyList-Item:before {
@@ -2866,7 +2863,7 @@ body {
 }
 @media (min-width: 1200px) {
   .WhyWeSert {
-    background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/WhyWeSert-Bg.jpg);
+    background-image: url(/wp-content/themes/nutrix/img/WhyWeSert-Bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -3065,7 +3062,8 @@ body {
 .AfterUseList-Item {
   position: relative;
   margin-bottom: 15px;
-  padding-left: 24px;
+  padding-left: 28px;
+  padding-top: 4px;
 }
 @media (min-width: 768px) {
   .AfterUseList-Item {
@@ -3079,9 +3077,9 @@ body {
 }
 .AfterUseList-Item:before {
   content: "";
-  width: 13px;
-  height: 11px;
-  background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/check.png);
+  width: 14px;
+  height: 14px;
+  background-image: url(/wp-content/themes/nutrix/img/check.png);
   background-position: center center;
   -webkit-background-size: cover;
   background-size: cover;
@@ -3092,14 +3090,14 @@ body {
 }
 @media (min-width: 480px) {
   .AfterUseList-Item:before {
-    width: 18px;
-    height: 15px;
+    width: 21px;
+    height: 21px;
   }
 }
 @media (min-width: 768px) {
   .AfterUseList-Item:before {
-    width: 25px;
-    height: 22px;
+    width: 27px;
+    height: 27px;
   }
 }
 
@@ -3108,7 +3106,7 @@ body {
 }
 @media (min-width: 1200px) {
   .WhyWe {
-    background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/WhyWe-Bg.png);
+    background-image: url(/wp-content/themes/nutrix/img/WhyWe-Bg.png);
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -3354,7 +3352,7 @@ body {
     content: "";
     width: 25px;
     height: 23px;
-    background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/check_white.png);
+    background-image: url(/wp-content/themes/nutrix/img/check_white.png);
     background-position: center center;
     -webkit-background-size: cover;
     background-size: cover;
@@ -3562,7 +3560,7 @@ body {
   left: 50%;
   width: 24px;
   height: 26px;
-  background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/CoursesCard-Hz.png);
+  background-image: url(/wp-content/themes/nutrix/img/CoursesCard-Hz.png);
   background-repeat: no-repeat;
   -webkit-background-size: 100% 100%;
   background-size: 100% 100%;
@@ -3678,7 +3676,7 @@ body {
   left: 0;
   width: 13px;
   height: 11px;
-  background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/check.png);
+  background-image: url(/wp-content/themes/nutrix/img/check.png);
   background-position: center center;
   -webkit-background-size: cover;
   background-size: cover;
@@ -3890,7 +3888,7 @@ body {
   .SpecGiftCard {
     position: relative;
     padding: 30px 0 35px 60px;
-    background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/SpecGiftCard-Circle.png);
+    background-image: url(/wp-content/themes/nutrix/img/SpecGiftCard-Circle.png);
     background-repeat: no-repeat;
     background-position: center right;
     text-align: left;
@@ -3974,7 +3972,7 @@ body {
 }
 @media (min-width: 992px) {
   .HowOrder {
-    background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/HowOrder-Bg.jpg);
+    background-image: url(/wp-content/themes/nutrix/img/HowOrder-Bg.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     -webkit-background-size: cover;
@@ -4215,11 +4213,12 @@ body {
   position: relative;
   margin-bottom: 15px;
   padding-left: 30px;
+  padding-top: 5px;
 }
 @media (min-width: 768px) {
   .DeliveryList-Item {
     padding-left: 45px;
-    font-size: 22px;
+    font-size: 24px;
   }
 }
 .DeliveryList-Item:last-child {
@@ -4227,9 +4226,9 @@ body {
 }
 .DeliveryList-Item:before {
   content: "";
-  width: 13px;
-  height: 11px;
-  background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/check.png);
+  width: 14px;
+  height: 14px;
+  background-image: url(/wp-content/themes/nutrix/img/check.png);
   background-position: center center;
   -webkit-background-size: cover;
   background-size: cover;
@@ -4240,8 +4239,8 @@ body {
 }
 @media (min-width: 480px) {
   .DeliveryList-Item:before {
-    width: 18px;
-    height: 15px;
+    width: 21px;
+    height: 21px;
   }
 }
 @media (min-width: 768px) {
@@ -4381,7 +4380,7 @@ body {
 
 @media (min-width: 992px) {
   .NeedHelp {
-    /* background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/NeedHelp-Bg.png); */
+    /* background-image: url(/wp-content/themes/nutrix/img/NeedHelp-Bg.png); */
     background-position: center right;
     background-repeat: no-repeat;
     -webkit-background-size: 50% 50%;
@@ -4516,7 +4515,7 @@ body {
   height: 525px;
   margin: 0 auto;
   padding: 67px 62px 76px 70px;
-  /* background-image: url(http://82.146.36.46/wp-content/themes/nutrix/img/SliderBg_iphone.png); */
+  /* background-image: url(/wp-content/themes/nutrix/img/SliderBg_iphone.png); */
   background-repeat: no-repeat;
   -webkit-background-size: 100% 100%;
   background-size: 100% 100%;
@@ -4843,8 +4842,8 @@ body {
 }
 
 .Footer {
-  background-image: url(http://localhost/wp-content/themes/nutrix/img/Footer-Bg.png);
   background-color: #008073;
+  background-image: url(http:////wp-content/themes/nutrix/img/Footer-Bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;

@@ -5,22 +5,19 @@
                 <img src="<?php echo get_template_directory_uri() . '/img/NUTRIX.png' ?>" alt="" class="ForThose-ImgText">
                 <ul class="ForThose-List ForThoseList">
                     <li class="ForThoseList-Item">
-                        У кого растянут желудок
+                        Видимый результат после первого применения
                     </li>
                     <li class="ForThoseList-Item">
-                        Кто не может следить за своим питанием
+                        100% натуральный состав
                     </li>
                     <li class="ForThoseList-Item">
-                        У кого нет сил и времени на&nbsp;тренировки
+                        Отсутствие аналогов на рынке
                     </li>
                     <li class="ForThoseList-Item">
-                        У кого нет эффекта от диет
+                        Удобная форма
                     </li>
                     <li class="ForThoseList-Item">
-                        У кого проблемы со здоровьем из-за лишнего веса
-                    </li>
-                    <li class="ForThoseList-Item">
-                        Кто не может контролировать свой аппетит
+                        Усиленное действие при минимальной нагрузке
                     </li>
                 </ul>
             </div>
