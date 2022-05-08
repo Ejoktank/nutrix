@@ -4,7 +4,7 @@
             <div class="BurgerMenu-Top">
                 <div class="BurgerMenu-Close">
                     <img class="BurgerMenu-Close-Icon icon-close"
-                         src="/img/icon-close.svg"
+                         src="<?php echo get_template_directory_uri() . '/img/icon-close.svg' ?>"
                          alt=""
                     >
                 </div>

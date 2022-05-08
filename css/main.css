@@ -817,7 +817,9 @@ body {
 .BurgerMenu {
   width: 100%;
   height: 100vh;
-  background: #fff;
+  background-color: #F8FDFC;
+  background-image: url(/wp-content/themes/nutrix/img/burger-bg.png);
+  background-size: contain;
   position: fixed;
   top: 0;
   left: -100%;
@@ -875,7 +877,7 @@ body {
   justify-content: center;
   width: 70px;
   height: 70px;
-  background-color: #fbbd00;
+  background-color: #008073;
   cursor: pointer;
 }
 .BurgerMenu-Close-Icon {
@@ -908,17 +910,20 @@ body {
 }
 .BurgerMenu-Links {
   position: relative;
-  margin-bottom: 20px;
-  font-size: 18px;
-  letter-spacing: 0.3px;
+  font-size: 36px;
   text-decoration: none;
+}
+@media (min-width:480px) {
+  .BurgerMenu-Links {
+    font-size: 50px;
+  }
 }
 .BurgerMenu-Links:last-child {
   margin-bottom: 0;
 }
 .BurgerMenu-Links:hover,
 .BurgerMenu-Links.active {
-  color: #fbbd00;
+  color: #008073;
 }
 .BurgerMenu-Footer {
   margin-top: 100px;
@@ -1509,7 +1514,7 @@ body {
   bottom: 0;
 }
 .HeaderNav-Link:hover:before {
-  background-color: #bc2232;
+  background-color: #008073;
 }
 
 .HeaderSocial {
@@ -1704,7 +1709,8 @@ body {
 .Intro-Btn {
   width: 185px;
   height: 45px;
-  padding-bottom: 3px;
+  padding-bottom: 6px;
+  font-size: 18px;
 }
 @media (min-width: 768px) {
   .Intro-Btn {
@@ -1826,12 +1832,18 @@ body {
   }
 }
 .GiveChance-Body {
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 @media (min-width: 575px) {
   .GiveChance-Body {
     padding-top: 50px;
+    margin-bottom: 100px;
     position: relative;
+  }
+}
+@media (min-width: 575px) {
+  .GiveChance-Body {
+    margin-bottom: 140px;
   }
 }
 
@@ -1862,9 +1874,9 @@ body {
 }
 @media (min-width: 1200px) {
   .GiveChance-SpecImgWrap {
-    width: 641px;
-    right: -130px;
-    top: 0;
+    width: 600px;
+    right: -50px;
+    top: -55px;
     bottom: 0;
   }
 }
@@ -2164,12 +2176,12 @@ body {
 }
 
 .WeKnow-Heading {
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   text-align: center;
 }
 @media (min-width: 768px) {
   .WeKnow-Heading {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     line-height: 1.2;
     text-align: left;
   }
@@ -2179,7 +2191,7 @@ body {
 }
 
 .WeKnow-Subheading {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   font-weight: 300;
   text-align: center;
 }
@@ -2192,7 +2204,7 @@ body {
 }
 @media (min-width: 992px) {
   .WeKnow-Subheading {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
 }
 
@@ -2213,7 +2225,6 @@ body {
 
 @media (min-width: 992px) {
   .WeKnow-Products {
-    padding-top: 40px;
   }
 }
 
@@ -2241,14 +2252,13 @@ body {
   max-width: 100%;
 }
 .WeKnow-Simg-Info {
-  margin-top: 28px;
   color: #737373;
   text-align: center;
 }
 @media (min-width: 992px) {
   .WeKnow-Simg-Info {
     position: absolute;
-    bottom: 0;
+    bottom: 80px;
     margin: 0;
     font-size: 14px;
     color: #000;
@@ -2273,7 +2283,7 @@ body {
 }
 @media (min-width: 1200px) {
   .WeKnow-AddInfo {
-    padding: 35px 25px 37px 110px;
+    padding: 33px 25px 33px 110px;
     -webkit-box-shadow: 0px 0px 34px rgba(0, 0, 0, 0.07);
     box-shadow: 0px 0px 34px rgba(0, 0, 0, 0.07);
   }
@@ -2294,22 +2304,18 @@ body {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 45px;
+  width: 60px;
   height: 100%;
-  padding-bottom: 3px;
   font-size: 40px;
   font-weight: 400;
   color: #ffffff;
   background-color: #008073;
-  content: "+";
+  content: url(/wp-content/themes/nutrix/img/plus.svg);
 }
 @media (min-width: 1200px) {
   .WeKnow-AddInfo:before {
-    top: 0;
-    left: 0;
     width: 90px;
     height: 90px;
-    font-size: 75px;
     -webkit-border-radius: 30px;
     border-radius: 30px;
   }
@@ -2348,7 +2354,7 @@ body {
 
 .WeKnowProducts-Item {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   padding-left: 30px;
 }
 @media (min-width: 768px) {
@@ -2358,7 +2364,7 @@ body {
 }
 @media (min-width: 1200px) {
   .WeKnowProducts-Item {
-    margin-bottom: 45px;
+    margin-bottom: 10px;
   }
 }
 .WeKnowProducts-Item:last-child {
@@ -2402,7 +2408,7 @@ body {
 }
 @media (min-width: 768px) {
   .WeKnowProducts-Text {
-    margin-top: 15px;
+    margin-top: 10px;
     font-size: 18px;
   }
 }
@@ -2565,7 +2571,7 @@ body {
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  content: "+";
+  content: url(/wp-content/themes/nutrix/img/plus_2.svg);
 }
 @media (min-width: 992px) {
   .HighEfficiencyList-Item:before {
@@ -2581,7 +2587,6 @@ body {
     width: 51px;
     height: 51px;
     padding-top: 0;
-    padding-bottom: 3px;
     font-size: 20px;
   }
 }
@@ -2754,39 +2759,9 @@ body {
   -o-object-position: center center;
   object-position: center center;
 }
-.ProductCard-PreviewImg_type_1 {
-  width: 268px;
-  -o-object-position: center 20px;
-  object-position: center 20px;
-}
-.ProductCard-PreviewImg_type_2 {
-  width: 239px;
-  -o-object-position: center 35px;
-  object-position: center 35px;
-}
-.ProductCard-PreviewImg_type_3 {
-  width: 286px;
-  -o-object-position: center 45px;
-  object-position: center 45px;
-}
-.ProductCard-PreviewImg_type_4 {
-  width: 258px;
-}
-@media (min-width: 992px) {
-  .ProductCard-PreviewImg_type_4 {
-    width: 204px;
-  }
-}
-.ProductCard-PreviewImg_type_5 {
-  width: 138px;
-}
-@media (min-width: 992px) {
-  .ProductCard-PreviewImg_type_5 {
-    width: 173px;
-  }
-}
+
 .ProductCard-Content {
-  padding: 25px 10px 30px;
+  padding: 25px 45px 30px;
 }
 .ProductCard-Heading {
   font-size: 20px;
@@ -3112,6 +3087,7 @@ body {
 
 .WhyWe {
   background-color: #f6f2f1;
+  margin-bottom: 30px;
 }
 @media (min-width: 1200px) {
   .WhyWe {
@@ -3394,18 +3370,17 @@ body {
 }
 
 .CourseTable-Body {
-  padding-top: 50px;
-  padding-bottom: 25px;
+  padding-top: 30px;
+  padding-bottom: 70px;
 }
 @media (min-width: 992px) {
   .CourseTable-Body {
-    padding-top: 75px;
-    padding-bottom: 50px;
+    padding-top: 40px;
   }
 }
 
 .CourseTable-Heading {
-  margin-bottom: 15px;
+  margin-bottom: 50px;
   text-align: center;
 }
 

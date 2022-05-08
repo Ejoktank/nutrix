@@ -2,8 +2,8 @@
     <div class="Container">
         <div class="WeKnow-Body">
             <h2 class="Heading Heading_lvl2 WeKnow-Heading">
-                <span>Мы знаем, как грамотно запустить</span> процесс
-                <span>постепенного</span> похудения и сохранить здоровье
+                <span>Мы знаем, как правильно организовать</span> процесс
+                похудения без вреда <span>для здоровья!</span> 
             </h2>
             <p class="WeKnow-Subheading">
                 Продукция Nutrix - это витаминные и минеральные комплексы, созданные на растительной основе.
@@ -46,7 +46,7 @@
                 <div class="WeKnow-SimgWrap">
                     <img src="<?php echo get_template_directory_uri() . '/img/WeKnow-Simg.png' ?>" alt="" class="WeKnow-Simg">
                     <p class="WeKnow-Simg-Info">
-                        * Это состав нашего легендарного продукта — фитококтейль Guarchibao Sachets
+                        *перед  вами состав нашего продукта – жиросжигателя FAT BURNER
                     </p>
                 </div>
             </div>

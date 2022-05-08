@@ -11,10 +11,10 @@
                         </div>
                         <div class="ProductCard-Content">
                             <h1 class="ProductCard-Heading">
-                                Капсулы Guarchibao<br> Fat Burner
+                                Жиросжигатель Nutrix<br> Fat Burner
                             </h1>
                             <p class="ProductCard-Info">
-                                Ускоряет процесс расщепления внутреннего и подкожных жиров
+                                Контроль аппетита и отсутствие чувства голода
                             </p>
                             <a class="Btn FancyBtn ProductCard-Btn"
                                data-fancybox
@@ -35,10 +35,10 @@
                         </div>
                         <div class="ProductCard-Content">
                             <h1 class="ProductCard-Heading">
-                                Чай детокс Guarchibao<br> Detox Herbal Tea
+                                Дренажерный напиток<br>Nutrix Detox 
                             </h1>
                             <p class="ProductCard-Info">
-                                Для своевременного очищения от продуктов распада жиров
+                                Повышение уровня выносливости и эффективности тренировок
                             </p>
                             <a class="Btn FancyBtn ProductCard-Btn"
                                data-fancybox
@@ -59,7 +59,7 @@
                         </div>
                         <div class="ProductCard-Content">
                             <h1 class="ProductCard-Heading">
-                                Дренажный напиток<br> Guarchibao Drainage<br> Liquor
+                                Конъюгированная линолевая кислота Nutrix CLA
                             </h1>
                             <p class="ProductCard-Info">
                                 Снимает отечность
