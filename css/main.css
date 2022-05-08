@@ -327,45 +327,51 @@ input[type="button"] {
 }
 
 @font-face {
-  font-family: "Creata";
+  font-family: "Montserrat";
+  src: url(/wp-content/themes/nutrix/font/Montserrat/Montserrat-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 100;
-  src: url(/wp-content/themes/nutrix/font/CreataThin/CreataThin.woff) format("woff");
+  src: url(/wp-content/themes/nutrix/font/Montserrat/Montserrat-Thin.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: "Creata";
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 300;
-  src: url(/wp-content/themes/nutrix/font/CreataLight/CreataLight.woff) format("woff");
+  src: url(/wp-content/themes/nutrix/font/Montserrat/Montserrat-Light.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: "Creata";
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  src: url(/wp-content/themes/nutrix/font/CreataRegular/CreataRegular.woff) format("woff");
+  src: url(/wp-content/themes/nutrix/font/Montserrat/Montserrat-Regular.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: "Creata";
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
-  src: url(/wp-content/themes/nutrix/font/CreataMedium/CreataMedium.woff) format("woff");
+  src: url(/wp-content/themes/nutrix/font/Montserrat/Montserrat-Medium.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: "Creata";
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
-  src: url(/wp-content/themes/nutrix/font/CreataBold/CreataBold.woff) format("woff");
+  src: url(/wp-content/themes/nutrix/font/Montserrat/Montserrat-Bold.ttf) format("truetype");
 }
 
+
 @font-face {
-  font-family: "Creata";
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 900;
-  src: url(/wp-content/themes/nutrix/font/CreataBlack/CreataBlack.woff) format("woff");
+  src: url(/wp-content/themes/nutrix/font/Montserrat/Montserrat-Black.ttf) format("truetype");
 }
 
 * {
@@ -396,7 +402,7 @@ svg {
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: "Montserrat";
   font-size: 12px;
   font-weight: 400;
   color: #000;
@@ -414,12 +420,12 @@ body {
 }
 
 .fonts-stage-1 body {
-  font-family: "Creata", sans-serif;
+  font-family: "Montserrat";
   line-height: 1.5;
 }
 
 .fonts-stage-2 body {
-  font-family: "Creata", sans-serif;
+  font-family: "Montserrat";
   line-height: 1.5;
 }
 
@@ -1709,7 +1715,6 @@ body {
 .Intro-Btn {
   width: 185px;
   height: 45px;
-  padding-bottom: 6px;
   font-size: 18px;
 }
 @media (min-width: 768px) {
@@ -1810,13 +1815,13 @@ body {
   content: "";
   width: 13px;
   height: 13px;
-  background-image: url(/wp-content/themes/nutrix/img/check.png);
+  background-image: url(/wp-content/themes/nutrix/img/check_2.svg);
   background-position: center center;
   -webkit-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
-  top: 3px;
+  top: 7px;
   left: 0;
 }
 @media (min-width: 480px) {
@@ -1827,6 +1832,7 @@ body {
 }
 @media (min-width: 768px) {
   .IntroList-Item:before {
+    top: 4px;
     width: 27px;
     height: 27px;
   }
@@ -2065,14 +2071,14 @@ body {
 }
 @media (min-width: 768px) {
   .ForThose-Content {
-    width: 50%;
+    width: 60%;
     max-width: none;
     padding-top: 40px;
   }
 }
 
 .ForThose-ImgText {
-  width: 87px;
+  width: 70px;
 }
 @media (min-width: 768px) {
   .ForThose-ImgText {
@@ -2141,14 +2147,14 @@ body {
 @media (min-width: 1200px) {
   .ForThoseList-Item {
     margin-bottom: 35px;
-    padding-left: 35px;
+    padding-left: 40px;
   }
 }
 .ForThoseList-Item:before {
   content: "";
   width: 14px;
   height: 14px;
-  background-image: url(/wp-content/themes/nutrix/img/check.png);
+  background-image: url(/wp-content/themes/nutrix/img/check_2.svg);
   background-position: center center;
   -webkit-background-size: cover;
   background-size: cover;
@@ -2161,6 +2167,13 @@ body {
   .ForThoseList-Item:before {
     width: 27px;
     height: 27px;
+    top: 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  .ForThoseList-Item:before {
+    top: 7px;
   }
 }
 
@@ -2445,6 +2458,9 @@ body {
 
 .HighEfficiency {
   background-color: #f8f3f0;
+  background-image: url(/wp-content/themes/nutrix/img/HighEfficiency-Leaf_left_phone.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
 }
 @media (min-width: 1200px) {
@@ -2598,8 +2614,7 @@ body {
 }
 
 .HighEfficiencyList-Text {
-  background-color: #fff;
-  padding: 15px;
+  padding: 20px;
   border-radius: 15px;
   min-width: 220px;
   text-align: center;
@@ -3052,7 +3067,7 @@ body {
 @media (min-width: 768px) {
   .AfterUseList-Item {
     margin-bottom: 30px;
-    padding-left: 60px;
+    padding-left: 40px;
     font-size: 22px;
   }
 }
@@ -3063,7 +3078,7 @@ body {
   content: "";
   width: 14px;
   height: 14px;
-  background-image: url(/wp-content/themes/nutrix/img/check.png);
+  background-image: url(/wp-content/themes/nutrix/img/check_2.svg);
   background-position: center center;
   -webkit-background-size: cover;
   background-size: cover;
@@ -3660,7 +3675,7 @@ body {
   left: 0;
   width: 13px;
   height: 11px;
-  background-image: url(/wp-content/themes/nutrix/img/check.png);
+  background-image: url(/wp-content/themes/nutrix/img/check_2.svg);
   background-position: center center;
   -webkit-background-size: cover;
   background-size: cover;
@@ -4047,9 +4062,10 @@ body {
   justify-content: center;
   width: 38px;
   height: 38px;
+  padding-bottom: 3px;
   font-size: 16px;
   font-weight: 700;
-  color: #ffffff;
+  color: #DCF2F0;
   background-color: #008073;
   -webkit-border-radius: 50%;
   border-radius: 50%;
@@ -4065,7 +4081,9 @@ body {
     width: 60px;
     height: 60px;
     padding-top: 0;
-    font-size: 32px;
+    padding-bottom: 9px;
+    padding-left: 0;
+    font-size: 38px;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
@@ -4212,17 +4230,18 @@ body {
   content: "";
   width: 14px;
   height: 14px;
-  background-image: url(/wp-content/themes/nutrix/img/check.png);
+  background-image: url(/wp-content/themes/nutrix/img/check_2.svg);
   background-position: center center;
   -webkit-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
-  top: 2px;
+  top: 7px;
   left: 0;
 }
 @media (min-width: 480px) {
   .DeliveryList-Item:before {
+    top: 3px;
     width: 21px;
     height: 21px;
   }
@@ -4230,6 +4249,8 @@ body {
 @media (min-width: 768px) {
   .DeliveryList-Item:before {
     top: 10px;
+    width: 27px;
+    height: 27px;
   }
 }
 

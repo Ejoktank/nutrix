@@ -10,9 +10,9 @@
                     <p class="HighEfficiencyList-Text">
                         Снижение веса
                     </p>
-                    <img src="<?php echo get_template_directory_uri() . '/img/HighEfficiencyList-Leaf.png' ?>"
+                    <!-- <img src="<?php echo get_template_directory_uri() . '/img/HighEfficiencyList-Leaf.png' ?>"
                          alt=""
-                         class="HighEfficiencyList-Leaf HighEfficiency-Leaf_phone">
+                         class="HighEfficiencyList-Leaf HighEfficiency-Leaf_phone"> -->
                 </li>
                 <li class="HighEfficiencyList-Item">
                     <p class="HighEfficiencyList-Text">
@@ -32,7 +32,7 @@
             </ul>
         </div>
     </div>
-    <img src="<?php echo get_template_directory_uri() . '/img/HighEfficiency-Leaf_left_phone.png' ?>"
+    <!-- <img src="<?php echo get_template_directory_uri() . '/img/HighEfficiency-Leaf_left_phone.png' ?>"
          alt=""
-         class="HighEfficiency-Leaf HighEfficiency-Leaf_left HighEfficiency-Leaf_phone">
+         class="HighEfficiency-Leaf HighEfficiency-Leaf_left HighEfficiency-Leaf_phone"> -->
 </section>

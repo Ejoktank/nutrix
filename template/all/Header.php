@@ -19,16 +19,16 @@
             </nav>
 
             <div class="Header-Social HeaderSocial">
-                <a href="https://ok.ru/guarchibaoline" class="HeaderSocial-Item" target="_blank">
+                <a href="https://ok.ru/nutrix" class="HeaderSocial-Item" target="_blank">
                     <img src="<?php echo get_template_directory_uri() . '/img/ok.png' ?>" alt="" class="HeaderSocial-Img">
                 </a>
-                <a href="https://vk.com/guarchibaoline" class="HeaderSocial-Item" target="_blank">
+                <a href="https://vk.com/nutrix" class="HeaderSocial-Item" target="_blank">
                     <img src="<?php echo get_template_directory_uri() . '/img/vk.png' ?>" alt="" class="HeaderSocial-Img">
                 </a>
-                <a href="https://www.facebook.com/guarchibaoline" class="HeaderSocial-Item" target="_blank">
+                <a href="https://www.facebook.com/nutrix" class="HeaderSocial-Item" target="_blank">
                     <img src="<?php echo get_template_directory_uri() . '/img/fb.png' ?>" alt="" class="HeaderSocial-Img">
                 </a>
-                <a href="https://www.t.me/guarchibaoline/" target="_blank" class="HeaderSocial-Item">
+                <a href="https://www.t.me/nutrix/" target="_blank" class="HeaderSocial-Item">
                     <img src="<?php echo get_template_directory_uri() . '/img/tg.png' ?>" alt="" class="HeaderSocial-Img">
                 </a>
             </div>

@@ -3,7 +3,7 @@
         <div class="Footer-Body">
             <div class="Footer-Left">
                 <p class="Footer-WorkText">
-                    Работаем по всему миру
+                    Работаем по всей России
                 </p>
                 <ul class="Footer-Social FooterSocial">
                     <li class="FooterSocial-Item">
