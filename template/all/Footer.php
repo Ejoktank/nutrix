@@ -73,21 +73,21 @@
 </footer>
 
 <div class="ImThanks">
-    <img src="<?php echo get_template_directory_uri() . '/img/ImThanks-Leaf.png' ?>" alt="" class="ImThanks-Leaf">
+    <!-- <img src="<?php echo get_template_directory_uri() . '/img/ImThanks-Leaf.png' ?>" alt="" class="ImThanks-Leaf"> -->
     <div class="ImThanks-Title">
-        Спасибо за покупку!
+        Спасибо за обращение!
     </div>
     <div class="ImThanks-Subtitle">
-        Подтверждение заказа придет на указанный e-mail.
+        Наш менеджер свяжется с вами в ближайшее время.
     </div>
     <p class="ImThanks-SocialTitle">
-        Добавляйтесь в официальные аккаунты:
+        Подписывайтесь на наш телеграм:
     </p>
     <figure class="ImThanks-Social">
-        <img src="/img/instagram.png"
+        <img src="<?php echo get_template_directory_uri() . '/img/tg.png' ?>"
              alt=""
              class="ImThanks-Social-Img">
-        <figcaption>@guarchibaoline</figcaption>
+        <figcaption>@nutrix</figcaption>
     </figure>
 </div>
 

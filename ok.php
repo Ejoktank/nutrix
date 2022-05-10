@@ -129,21 +129,20 @@ if(count($_POST))
 	/* Сохранение внутри БАЗЫ EXCELL GROUP */
 
     echo "
-    <img src=\"/wp-content/themes/nutrix/img/ImThanks-Leaf.png\" alt=\"\" class=\"ImThanks-Leaf\">
         <div class=\"ImThanks-Title\">
-            Спасибо за покупку!
+		Спасибо за обращение!
         </div>
         <div class=\"ImThanks-Subtitle\">
-            Подтверждение заказа придет на указанный e-mail.
+		Наш менеджер свяжется с вами в ближайшее время.
         </div>
         <p class=\"ImThanks-SocialTitle\">
-            Добавляйтесь в официальные аккаунты:
+		Подписывайтесь на наш телеграм:
         </p>
         <figure class=\"ImThanks-Social\">
-            <img src=\"/wp-content/themes/nutrix/img/instagram.png\"
+            <img src=\"/wp-content/themes/nutrix/img/tg.png\"
                  alt=\"\"
                  class=\"ImThanks-Social-Img\">
-            <figcaption>@guarchibaoline</figcaption>
+            <figcaption>@nutrix</figcaption>
         </figure>
     ";
 
