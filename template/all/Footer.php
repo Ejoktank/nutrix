@@ -27,7 +27,32 @@
                     <li class="FooterSocial-Item">
                         <a href="https://ok.ru/nutrix"
                            target="_blank">
-                            <img src="<?php echo get_template_directory_uri() . '/img/ok.png' ?>" alt="" class="FooterSocial-Icon">
+                            <img src="<?php echo get_template_directory_uri() . '/img/ok-footer.png' ?>" alt="" class="FooterSocial-Icon">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="Footer-Center">
+                <ul class="Footer-LinkList FooterLinkList">
+                    <li class="FooterLinkList-Item">
+                        <a class="FooterLinkList-Link"
+                           href="<?php echo get_template_directory_uri() . '/files/politika.pdf' ?>"
+                           target="_blank">
+                            Политика конфиденциальности
+                        </a>
+                    </li>
+                    <li class="FooterLinkList-Item">
+                        <a class="FooterLinkList-Link"
+                           href="<?php echo get_template_directory_uri() . '/files/soglasie.pdf' ?>"
+                           target="_blank">
+                            Согласие на обработку персональных данных
+                        </a>
+                    </li>
+                    <li class="FooterLinkList-Item">
+                        <a class="FooterLinkList-Link"
+                           href="<?php echo get_template_directory_uri() . '/files/publichnay_oferta.pdf' ?>"
+                           target="_blank">
+                            Договор оферта
                         </a>
                     </li>
                 </ul>
@@ -37,6 +62,8 @@
                 <p class="Footer-Copyright">
                     Все права защищены
                 </p>
+                <div class="infocom-logo"></div>
+                <p class="Footer-Copyright infocom-txt">Разработано Инфоком НН</p>
             </div>
             <a href="#Intro" class="Footer-ArrowToTop">
                 <img src="<?php echo get_template_directory_uri() . '/img/Footer-ArrowToTop-Icon.png' ?>" alt="" class="Footer-ArrowToTop-Icon">
@@ -46,7 +73,7 @@
 </footer>
 
 <div class="ImThanks">
-    <!--<img src="/img/ImThanks-Leaf.png" alt="" class="ImThanks-Leaf">
+    <img src="<?php echo get_template_directory_uri() . '/img/ImThanks-Leaf.png' ?>" alt="" class="ImThanks-Leaf">
     <div class="ImThanks-Title">
         Спасибо за покупку!
     </div>
@@ -61,6 +88,6 @@
              alt=""
              class="ImThanks-Social-Img">
         <figcaption>@guarchibaoline</figcaption>
-    </figure>-->
+    </figure>
 </div>
 

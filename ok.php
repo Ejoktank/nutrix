@@ -90,7 +90,7 @@ if(count($_POST))
 
     /* отправка на почту */
 	//mail_send("Guarchibao", "noreply@".$_SERVER['SERVER_NAME'], "Администратор","","utf-8","utf-8", "Новая заявка с сайта ".date("d.m.Y"),$body_form);
-	mail_send("Guarchibao", "noreply@".$_SERVER['SERVER_NAME'], "Администратор","rilok21work@gmail.com","utf-8","utf-8", "Новая заявка с сайта ".date("d.m.Y"),$body_form);
+	mail_send("Nutrix", "noreply@".$_SERVER['SERVER_NAME'], "Администратор","rilok21work@gmail.com","utf-8","utf-8", "Новая заявка с сайта ".date("d.m.Y"),$body_form);
 
 	
 	/* Сохранение внутри БАЗЫ EXCELL GROUP */
@@ -129,7 +129,7 @@ if(count($_POST))
 	/* Сохранение внутри БАЗЫ EXCELL GROUP */
 
     echo "
-    <img src=\"/img/ImThanks-Leaf.png\" alt=\"\" class=\"ImThanks-Leaf\">
+    <img src=\"/wp-content/themes/nutrix/img/ImThanks-Leaf.png\" alt=\"\" class=\"ImThanks-Leaf\">
         <div class=\"ImThanks-Title\">
             Спасибо за покупку!
         </div>
@@ -140,7 +140,7 @@ if(count($_POST))
             Добавляйтесь в официальные аккаунты:
         </p>
         <figure class=\"ImThanks-Social\">
-            <img src=\"/img/instagram.png\"
+            <img src=\"/wp-content/themes/nutrix/img/instagram.png\"
                  alt=\"\"
                  class=\"ImThanks-Social-Img\">
             <figcaption>@guarchibaoline</figcaption>

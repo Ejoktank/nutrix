@@ -12,7 +12,7 @@
                     <div class="Form-Row">
                         <div class="Input Input_bgWhite">
                             <input
-                                    placeholder="Введите ваше имя"
+                                    placeholder="Введите имя"
                                     name="name"
                                     class="Input-Control"
                                     data-validator="letters"

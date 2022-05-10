@@ -48,7 +48,7 @@ function sendForm(form) {
     formBtn.disabled = true;
 
     var xhr = new XMLHttpRequest();
-    xhr.open("POST", "/ok.php");
+    xhr.open("POST", "/wp-content/themes/nutrix/ok.php");
     xhr.send(formData);
     xhr.onreadystatechange = function () { // (3)
         if (xhr.readyState != 4) return;
