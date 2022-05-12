@@ -65,7 +65,7 @@ if(count($_POST))
         }
     }
 	
-	$ab_test = intval($_SESSION['ab_var1']);
+	// $ab_test = intval($_SESSION['ab_var1']);
 	$head_mess = addslashes(htmlspecialchars(trim($_POST['head_mess'])));
 	$name = addslashes(htmlspecialchars(trim($_POST['name'])));
 	$phone = addslashes(htmlspecialchars(trim($_POST['phone'])));

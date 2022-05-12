@@ -4,7 +4,13 @@
 
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri() . '/img/favicon/favicon.ico' ?>" type="image/x-icon">
 
-    <link rel="preload" href="<?php echo get_template_directory_uri() . '/font/Montserrat/Montserrat-VariableFont_wght.ttf'; ?>" as="font" crossorigin="anonymous" type="font/ttf">
+    <link rel="preload" href="<?php echo get_template_directory_uri() . '/font/Montserrat/Montserrat-VariableFont_wght.ttf' ?>" as="font" crossorigin="anonymous" type="font/truetype">
+    <link rel="preload" href="<?php echo get_template_directory_uri() . '/font/Montserrat/Montserrat-Thin.ttf' ?>" as="font" crossorigin="anonymous" type="font/truetype">
+    <link rel="preload" href="<?php echo get_template_directory_uri() . '/font/Montserrat/Montserrat-Light.ttf' ?>" as="font" crossorigin="anonymous" type="font/truetype">
+    <link rel="preload" href="<?php echo get_template_directory_uri() . '/font/Montserrat/Montserrat-Regular.ttf' ?>" as="font" crossorigin="anonymous" type="font/truetype">
+    <link rel="preload" href="<?php echo get_template_directory_uri() . '/font/Montserrat/Montserrat-Medium.ttf' ?>" as="font" crossorigin="anonymous" type="font/truetype">
+    <link rel="preload" href="<?php echo get_template_directory_uri() . '/font/Montserrat/Montserrat-Bold.ttf' ?>" as="font" crossorigin="anonymous" type="font/truetype">
+    <link rel="preload" href="<?php echo get_template_directory_uri() . '/font/Montserrat/Montserrat-Black.ttf' ?>" as="font" crossorigin="anonymous" type="font/truetype">
     
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/css/libs.min.css'; ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/css/main.css'; ?>">
